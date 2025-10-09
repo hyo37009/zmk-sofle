@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - layer3
   - $$mdi:apple-keyboard-command$$
@@ -60,8 +60,8 @@ layers:
   - layer1
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
   - layer2
   - LANG HANGEUL
   - $$mdi:backspace-reverse-outline$$
