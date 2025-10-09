@@ -63,7 +63,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - layer2
-  - $$mdi:apple-keyboard-option$$
+  - LANG HANGEUL
   - $$mdi:backspace-reverse-outline$$
   layer1:
   - {t: '`', s: '~'}
@@ -94,9 +94,9 @@ layers:
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
-  - LANG1
-  - LANG HANGEUL
-  - LANGUAGE 1
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
