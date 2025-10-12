@@ -40,7 +40,14 @@
     behaviors {
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        to_layer {
+            bindings = <&to 4>;
+            key-positions = <39 56>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -99,11 +106,11 @@
 
         layer_4 {
             bindings = <
-&trans  &to 1   &to 2   &to 3   &to 4            &trans       &trans  &trans  &trans    &trans        &trans     &to 0   &trans
-&trans  &trans  &trans  &trans  &trans           &trans       &trans  &trans  &trans    &kp UP_ARROW  &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans           &trans       &trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans           &trans       &trans  &trans  &trans    &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &kp PRINTSCREEN  &kp RIGHT    &trans  &trans  &trans    &trans        &trans     &trans
+&trans  &to 1         &to 2         &to 3         &to 4            &trans       &trans  &trans  &trans    &trans        &trans     &to 0   &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &trans           &trans       &trans  &trans  &trans    &kp UP_ARROW  &trans     &trans  &trans
+&trans  &trans        &trans        &trans        &trans           &trans       &trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
+&trans  &trans        &trans        &trans        &trans           &trans       &trans  &trans  &trans    &trans        &trans     &trans  &trans
+&trans  &trans        &trans        &trans        &kp PRINTSCREEN  &kp RIGHT    &trans  &trans  &trans    &trans        &trans     &trans
             >;
 
             display-name = "layer4";
