@@ -46,6 +46,7 @@
         to_layer {
             bindings = <&to 4>;
             key-positions = <39 56>;
+            layers = <0>;
         };
     };
 
