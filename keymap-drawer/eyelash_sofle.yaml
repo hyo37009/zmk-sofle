@@ -81,9 +81,9 @@ layers:
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:apple-keyboard-caps$$
   - {t: '`', s: '~'}
-  - $$mdi:mouse-left-click-outline$$
+  - '&mkp MB3'
   - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
+  - '&mkp MB1'
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
